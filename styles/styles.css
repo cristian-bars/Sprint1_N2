@@ -1,0 +1,190 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header-container {
+    background-color: darkslategray;
+    margin-bottom: 20px;
+}
+
+header {
+    background-image: url("../images/fons_capçalera.png");
+    width: 1000px;
+}
+
+#logo {
+    display: inline-block;
+    padding: 0 0 0 30px;
+}
+
+#xarxes {
+    display: block;
+    float: right;
+    margin-right: 30px;
+}
+
+#xarxes img, #face, #inst, #twit {
+    width: 40px;
+    display: inline;
+    vertical-align: middle;
+}
+
+#nav-container {
+    margin-bottom: 20px;
+}
+
+#nav-container .menu {
+    font-family: "Potta One";
+    color: #000000;
+    text-align: center;
+}
+.menu {
+    display: inline-block;
+    background-color: #dfdfdf;
+    width: 196px;
+}
+
+#elements_destacats {
+    margin-bottom: 20px;
+}
+
+.destacats {
+    width: 330px;
+    height: 190px;
+    background-color: dimgray;
+    display: inline-block;
+}
+
+.destacats img {
+    width: 330px;
+    position: absolute;
+}
+
+#contingut {
+    position: absolute;
+    font-family: "Potta One";
+}
+#main-container {
+    margin-bottom: 20px;
+}
+
+#article_central {
+    height: 450px;
+    background-color: grey;
+}
+
+#info_article {
+    height: 450px;
+    width: 600px;
+    background-color: indigo;
+    margin: 0 auto;
+}
+
+footer {
+    height: 70px;
+    background-color: grey;
+    font-family: "Potta One";
+}
+
+#footer_container {
+    padding-bottom: 20px;
+}
+
+#footer {
+    font-size: 10px;
+}
+@media (min-width: 1000px) {
+    #header-container {
+        line-height: 120px;
+    }
+    
+    #logo img {
+        width: 200px;
+        vertical-align: middle;
+    }
+    
+    .menu {
+        height: 50px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    
+    #container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    header {
+        height: 83px;
+        background-size: 100%;
+        width: 100%;
+    }
+    
+    #logo {
+        padding: 0 0 0 15px;
+    }
+    
+    #logo img {
+        width: 150px;
+    }
+    
+    #xarxes img, #face, #inst, #twit {
+        width: 20px;
+    }
+    
+    #xarxes {
+        margin-right: 15px;
+    }
+    
+    nav a {
+        display: inline-block;
+        width: 19%;
+    }
+    
+    .menu {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    #container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header {
+        height: 41px;
+        background-image: url("../images/fons_capçalera.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    
+    #logo {
+        padding: 0 0 0 5px;
+    }
+    
+    #logo img {
+        width: 100px;
+    }
+    
+    #xarxes img, #face, #inst, #twit {
+        width: 20px;
+    }
+    
+    #xarxes {
+        margin-right: 10px;
+    }
+    
+    nav a {
+        width: 100%;
+    }
+    
+    .menu {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
